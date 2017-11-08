@@ -71,11 +71,11 @@ def run(my_songs)
       puts "Please enter a command:"
       response = gets.chomp
     elsif response == "list"
-      list(songs)
+      list(my_songs)
       puts "Please enter a command:"
       response = gets.chomp
     elsif response == "play"
-      play(songs)
+      play(my_songs)
       puts "Please enter a command:"
       response = gets.chomp
     end
