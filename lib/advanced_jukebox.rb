@@ -4,7 +4,7 @@
 
 my_songs = {
 "Go Go GO" => '/home/matt-mcalister/jukebox-cli-web-112017/audio/Emerald-Park/01.mp3',
-"LiberTeens" => '/home/matt-mcalister/jukebox-cli-web-112017/Emerald-Park/02.mp3',
+"LiberTeens" => '/home/matt-mcalister/jukebox-cli/Emerald-Park/02.mp3',
 "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
 "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
 "Wolf" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/05.mp3',
