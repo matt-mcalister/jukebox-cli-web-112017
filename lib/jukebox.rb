@@ -58,7 +58,10 @@ def run(songs)
   response = gets.chomp
 
   while response != "exit"
-    if response == "help"
+    if response != "help" || response != "list" || response != "list"
+      puts "Invalid input, please try again"
+      response = gets.chomp
+    elsif response == "help"
       help
       puts "Please enter a command:"
       response = gets.chomp
