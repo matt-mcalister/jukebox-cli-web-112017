@@ -44,7 +44,8 @@ def play(my_songs)
 
   if my_songs.keys.include?((response))
     puts "Playing #{response}"
-    system 'open my_songs[response]'
+    location = my_songs[response]
+    system 'open <location>'
   else
     puts "Invalid input, please try again"
   end
