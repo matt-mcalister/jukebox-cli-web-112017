@@ -35,7 +35,7 @@ def list(songs)
 end
 
 def play(songs)
-  puts "Please eanter a song name or number:"
+  puts "Please enter a song name or number:"
   response = gets.chomp
 
   if songs.include?(response)
