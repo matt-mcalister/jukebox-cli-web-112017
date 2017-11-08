@@ -3,7 +3,7 @@
 #with the correct path to this directory on your computer
 
 my_songs = {
-"Go Go GO" => '/home/matt-mcalister/jukebox-cli-web-112017/audio/Emerald-Park/01.mp3',
+"Go Go GO" => '/home/matt-mcalister/jukebox-cli/audio/Emerald-Park/01.mp3',
 "LiberTeens" => '/home/matt-mcalister/jukebox-cli/Emerald-Park/02.mp3',
 "Hamburg" =>  '< path to this directory >/jukebox-cli/audio/Emerald-Park/03.mp3',
 "Guiding Light" => '< path to this directory >/jukebox-cli/audio/Emerald-Park/04.mp3',
@@ -44,8 +44,7 @@ def play(my_songs)
 
   if my_songs.keys.include?((response))
     puts "Playing #{response}"
-    location = my_songs[response]
-    system "open #{location}"
+    system "open #{my_songs[response]}"
   else
     puts "Invalid input, please try again"
   end
